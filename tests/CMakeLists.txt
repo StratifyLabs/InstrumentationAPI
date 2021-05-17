@@ -1,7 +1,7 @@
 
-set(DEPENDENCIES TestAPI FsAPI JsonAPI ReportAPI)
+set(DEPENDENCIES TestAPI FsAPI JsonAPI InstrumentationAPI)
 
-api_add_test_executable(ReportAPI 32768 "${DEPENDENCIES}")
+api_add_test_executable(InstrumentationAPI 32768 "${DEPENDENCIES}")
 
 
 
