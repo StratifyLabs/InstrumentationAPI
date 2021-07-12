@@ -6,6 +6,9 @@
 #include <chrono/ClockTime.hpp>
 #include <printer/Printer.hpp>
 
+#include "Datum.hpp"
+#include "Directive.hpp"
+
 namespace instrumentation {
 
 class ReportPrinter : public printer::Printer {
@@ -36,5 +39,6 @@ private:
 };
 
 } // namespace report
+
 
 #endif // REPORTAPI_REPORT_REPORTPRINTER_HPP
